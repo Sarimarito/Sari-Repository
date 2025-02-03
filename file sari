@@ -1,12 +1,33 @@
-or create a new repository on the command line
+# Create a new repository on the command line
+
+# Add a README file
 echo "# Sari-Repository" >> README.md
+
+# Initialize a new Git repository
 git init
+
+# Add the README file to the repository
 git add README.md
+
+# Commit the changes with a message
 git commit -m "first commit"
+
+# Rename the default branch to 'main'
 git branch -M main
+
+# Add a remote repository URL
 git remote add origin https://github.com/Sarimarito/Sari-Repository.git
+
+# Push the changes to the remote repository
 git push -u origin main
-…or push an existing repository from the command line
+
+# Push an existing repository from the command line
+
+# Add a remote repository URL
 git remote add origin https://github.com/Sarimarito/Sari-Repository.git
+
+# Rename the default branch to 'main'
 git branch -M main
+
+# Push the changes to the remote repository
 git push -u origin main
